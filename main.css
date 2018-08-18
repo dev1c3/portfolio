@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-weight: 540;
+}
+
+.lg-heading {
+    font-size: 5rem;
+    margin-top: 200px;
+    color: #eece1a;
+    margin-left: 30px;
+}
+
+.text-secondary {
+    color: white;
+}
+
+.sm-heading {
+    color: #eece1a;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: #58574e2d;
+    width: 100%;
+    padding: 17px;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 23px;
+    color: white;
+}
+
+.icons a {
+    margin-right: 20px;
+    text-decoration: none;
+    transition: 0.5s ease-out;
+}
+
+.icons a:link {
+    color: white;
+}
+
+.icons a:visited {
+    color: white;
+}
+
+.icons a:hover {
+    color: #eece1a;
+}
+
+ul {
+    margin: 0;
+    padding: 30px;
+    list-style-type: none;
+    position: fixed;
+    width: 300px;
+    background-color: #58574e2a;
+    right: 0;
+    height: 100%;
+    top: 0;
+}
+
+.side li a {
+    display: block;
+    text-decoration: none;
+    background-color: rgba(51, 51, 51, 0);
+    font-size: 25px;
+    padding: 0px 0px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    transition: 0.5s ease-out;
+    border: 1px solid #eece1a;
+}
+
+li a:link {
+    color: white;
+}
+
+li a:visited {
+    color: white;
+}
+
+li a:hover {
+    color: black;
+    background-color: #eece1a;
+}
+
+main {
+    position: relative;
+    width: 40%;
+}
+
+.portrait {
+    position: absolute;
+    left: 50%;
+    top: 200px;
+}
+
+.portrait img {
+    border-radius: 50%;
+    border: 2px solid #eece1a;
+}
+
+header {
+    color: white;
+    font-size: 5rem;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 0px;
+    border-bottom: 4px solid #eece1a;
+    width: 85%;
+}
+
+header .me {
+    color: #eece1a;
+}
+
+.address {
+    color: white;
+    font-size: 30px;
+    margin: 50px 0 0 100px;
+    background-color: #58574e2d;
+    width: 70%;
+    padding: 30px;
+    border: 1px solid #eece1a;
+}
+
+.address span {
+    color: #eece1a;
+}
+
+.address:hover,
+.address span {
+    color: black;
+    background-color: #eece1a;
+    transition: 0.5s ease-out;
+}
+
+.phone {
+    color: white;
+    font-size: 30px;
+    margin: 90px 0 0 100px;
+    background-color: #58574e2d;
+    width: 70%;
+    padding: 30px;
+    border: 1px solid #eece1a;
+}
+
+.phone span {
+    color: #eece1a;
+}
+
+.phone:hover,
+.phone span {
+    color: black;
+    background-color: #eece1a;
+    transition: 0.5s ease-out;
+}
+
+.email {
+    color: white;
+    font-size: 30px;
+    margin: 90px 0 0 100px;
+    background-color: #58574e2d;
+    width: 70%;
+    padding: 30px;
+    border: 1px solid #eece1a;
+}
+
+.email span {
+    color: #eece1a;
+}
+
+.email:hover,
+.email span {
+    color: black;
+    background-color: #eece1a;
+    transition: 0.5s ease-out;
+}
+
+.about {
+    color: white;
+    font-size: 5rem;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 0px;
+    border-bottom: 4px solid #eece1a;
+    width: 85%;
+}
+
+.about span {
+    color: #eece1a;
+}
+
+.content {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    margin: 70px;
+    background-color: #58574e2d;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    word-spacing: 10px;
+    line-height: 2.5rem;
+}
